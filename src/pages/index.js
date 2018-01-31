@@ -89,17 +89,17 @@ const IndexPage = () => (
       <div className="site-container">
         <div className="contact-container">
             <div className="contact-headline">Want to get in touch?</div>
-            <div className="contact-form">
+            <form name="contact" netlify className="contact-form">
                 <label>NAME</label>
-                <input type="text" />
+                <input name="name" type="text" />
                 <label>EMAIL</label>
-                <input type="text" />
+                <input name="email" type="text" />
                 <label>COMPANY</label>
-                <input type="text" />
+                <input name="company" type="text" />
                 <label>MESSAGE</label>
-                <textarea></textarea>
+                <textarea name="message"></textarea>
                 <button className="contact-form__btn">SEND MESSAGE</button>
-            </div>
+            </form>
         </div>
       </div>
     </div>
