@@ -89,7 +89,7 @@ const IndexPage = () => (
       <div className="site-container">
         <div className="contact-container">
             <div className="contact-headline">Want to get in touch?</div>
-            <form name="contact" netlify className="contact-form">
+            <form name="contact" action="/" data-netlify="true" className="contact-form">
                 <label>NAME</label>
                 <input name="name" type="text" />
                 <label>EMAIL</label>
