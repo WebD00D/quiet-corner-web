@@ -6,11 +6,11 @@ const Header = () => (
     <div className="site-container">
       <div className="space-between align-center">
         <div>
-          <img style={{marginTop: "5px"}} src={require("../../images/pink_WORDMARK.svg")} />
+          <Link to="/"><img style={{marginTop: "5px"}} src={require("../../images/pink_WORDMARK.svg")} /></Link>
         </div>
         <div>
-          <Link to="/page-2" className="nav-link headline-text">FAQs</Link>
-          <span className="nav-link headline-text">Get In Touch</span>
+          <Link to="/faqs" className="nav-link headline-text">FAQs</Link>
+          <Link to="/#contact" className="nav-link headline-text">Get In Touch</Link>
         </div>
       </div>
     </div>

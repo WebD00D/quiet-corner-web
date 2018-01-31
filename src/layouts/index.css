@@ -631,6 +631,15 @@ pre tt:after {
   margin-right: auto;
 }
 
+@media (max-width: 990px) {
+
+  .site-container {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+}
+
 .headline-text {
   font-family: "almaq-refined" !important;
 }
@@ -729,6 +738,31 @@ pre tt:after {
   cursor: pointer;
 }
 
+
+@media ( max-width: 990px) {
+
+  .hero {
+    height: 380px;
+  }
+
+  .hero-cta__title {
+    font-size: 32px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .hero-image {
+    right: -30px;
+    top: -50px;
+    position: absolute;
+    height: 400px;
+    z-index: -1;
+    opacity: 0.15;
+  }
+}
+
 .mission {
   height: 600px;
   background-color: #ff6e6d;
@@ -776,6 +810,18 @@ pre tt:after {
   text-align: center;
   color: #ffffff;
   max-width: 360px;
+}
+
+@media ( max-width: 990px) {
+
+  .mission {
+    height: 380px;
+  }
+
+  .mission-headline {
+    font-size: 32px;
+  }
+
 }
 
 .pay-as-you-go {
@@ -926,6 +972,46 @@ pre tt:after {
   color: #0c1267;
 }
 
+@media ( max-width: 990px) {
+
+  .pay-as-you-go {
+    height: 900px;
+    padding-top: 80px;
+  }
+
+  .pay-as-you-go-content {
+    flex-direction: column;
+  }
+
+  .pay-as-you-go-content-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .pay-as-you-go__headline {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .pay-as-you-go-copy {
+    text-align: center;
+  }
+
+  .publishers-rejoice {
+    height: 380px;
+  }
+
+  .publishers-rejoice__headline {
+    font-size: 32px;
+  }
+
+  .publishers-rejoice__copy {
+    width: auto;
+    font-size: 16px;
+  }
+
+}
+
 .contact {
   display: flex;
   height: auto;
@@ -1045,6 +1131,28 @@ pre tt:after {
   outline: none;
 }
 
+@media ( max-width: 990px ) {
+  .contact {
+    padding-top: 48px;
+  }
+
+  .contact-container {
+    width: auto;
+  }
+
+  .contact-headline {
+    font-size: 32px;
+  }
+
+  .contact-form__btn {
+    width: auto;
+  }
+
+  .contact-form {
+    margin-bottom: 48px;
+  }
+}
+
 .footer {
   height: 276px;
   display: flex;
@@ -1070,4 +1178,92 @@ pre tt:after {
   letter-spacing: normal;
   text-align: center;
   color: #ff6e6d;
+}
+
+.faqs {
+  max-width: 645px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.faq-wrapper {
+  margin-top: 75px;
+}
+
+.faq-row {
+  border-bottom: solid 2px #f1f1f5;
+}
+
+.faq-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: .2s ease;
+  opacity: 0.55;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.37;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0c1157;
+}
+
+.faq-content--open {
+  max-height: 500px;
+  padding-bottom: 20px;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 88px;
+}
+
+.faq-button {
+  height: 30px;
+}
+
+.faq-header:hover {
+  cursor: pointer;
+}
+
+.faq-title {
+  opacity: 0.86;
+  font-family: "almaq-refined" !important;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  color: #13196f;
+  padding-right: 12px;
+}
+
+
+
+@media (max-width: 990px) {
+
+  .faq-wrapper {
+    margin-top: 0px;
+  }
+
+  .faq-title {
+    font-size: 18px;
+  }
+
+  .faq-button {
+    height: 20px;
+  }
+
+  .faq-content {
+    font-size: 14px;
+  }
+
 }

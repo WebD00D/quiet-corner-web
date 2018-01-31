@@ -85,7 +85,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="site-container">
         <div className="contact-container">
             <div className="contact-headline">Want to get in touch?</div>
