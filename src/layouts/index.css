@@ -728,6 +728,10 @@ pre tt:after {
   letter-spacing: 1.1px;
   text-align: center;
   color: #ffffff;
+  line-height: 44px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .hero-cta__btn:focus,

@@ -11,7 +11,7 @@ const IndexPage = () => (
               Want to be enlightened and engaged by premium editorial with no
               ads?
             </div>
-            <button className="hero-cta__btn">LEARN MORE</button>
+            <Link to="/#mission" className="hero-cta__btn">LEARN MORE</Link>
           </div>
           <img
             className="hero-image"
@@ -20,7 +20,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="mission">
+    <div id="mission" className="mission">
       <div className="site-container">
         <div className="mission-content">
           <img
