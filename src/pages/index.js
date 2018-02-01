@@ -32,8 +32,9 @@ const IndexPage = () => (
           </div>
           <div className="mission-copy">
             Quiet Corner is a micro-paywall that allows you to buy the best
-            media on your phone or desktop. In an age of noisy browsing, Quiet
-            Corner exists to preserve the true art of storytelling.
+             media on your phone or desktop.
+             In an age of noisy browsing, Quiet Corner exists to preserve
+             the true art of storytelling.
           </div>
         </div>
       </div>
@@ -54,10 +55,10 @@ const IndexPage = () => (
                 No subsciptions,<br /> pay as you go
               </div>
               <div className="pay-as-you-go__copy">
-                No one likes subscriptions. We don't do that here. We're
-                pay-by-play. Just a few cents to keep you informed and
-                entertained. Think of it as a bus pass. Keep topping up, keep
-                riding. Exit any time.
+                No one likes direct debits.
+                We don't do that here. We're pay-by-play.
+                Just a few cents to keep you informed and entertained.
+                Think of it as a bus pass. Keep topping up, keep riding. Exit any time.
               </div>
             </div>
           </div>
@@ -75,12 +76,12 @@ const IndexPage = () => (
             className="publishers-rejoice__img"
             src={require("../images/publishers_icon.png")}
           />
-          <div className="publishers-rejoice__headline">Publishers rejoice</div>
+          <div className="publishers-rejoice__headline">A way forward for publishers</div>
           <div className="publishers-rejoice__copy">
             We're here to allow publishers to create a sustainable business,
-            oxygenised by quality, self-funded storytelling, not heartless
-            advertorial or trashy listicles. And, if a reader doesn't like a
-            story, the refund is theirs.
+            oxygenised by quality, self-funded storytelling,
+            not heartless advertorial or trashy listicles.
+            And, if a reader doesn't like a story, the refund is theirs.
           </div>
         </div>
       </div>
