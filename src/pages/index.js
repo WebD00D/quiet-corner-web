@@ -15,7 +15,7 @@ const IndexPage = () => (
           </div>
           <img
             className="hero-image"
-            src={require("../images/hero_illustration.png")}
+            src={require("../images/qc_moving_02.gif")}
           />
         </div>
       </div>

@@ -691,7 +691,7 @@ pre tt:after {
 .hero-image {
   position: relative;
   height: 554px;
-  top: 50px;
+  top: -25px;
   right: 0px;
 }
 
@@ -703,7 +703,7 @@ pre tt:after {
 .hero-cta__title {
   margin-bottom: 22px;
   font-family: "almaq-refined" !important;
-  font-size: 50px;
+  font-size: 44px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -759,8 +759,8 @@ pre tt:after {
   }
 
   .hero-image {
-    right: -30px;
-    top: -50px;
+    right: -90px;
+    top: -120px;
     position: absolute;
     height: 400px;
     z-index: -1;
