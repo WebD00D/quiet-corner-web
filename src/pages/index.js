@@ -52,7 +52,7 @@ const IndexPage = () => (
                 First 5 <br /> Stories Free!
               </div>
               <div className="pay-as-you-go__headline">
-                No subsciptions,<br /> pay as you go
+                No subscriptions,<br /> pay as you go
               </div>
               <div className="pay-as-you-go__copy">
                 No one likes direct debits.
