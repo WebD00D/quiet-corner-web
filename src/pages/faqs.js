@@ -18,20 +18,20 @@ const SecondPage = () => (
             paragraphThree="Picture this, to those of us in print media: your most loyal reader subscribes to your print edition, or wanders down to the newsstand to pick up the latest issue. They sit back, consume the magazine and that afternoon, they go browsing the internet. Here, they find the cover story + main feature in its entirety, identical except for how it’s displayed: every word, every photo, every caption. Is this how we look after our most loyal customer?"
           />
           <Faq
-            headline="How much does Quite Corner software cost me?"
+            headline="How much does Quiet Corner software cost me?"
             paragraphOne="It's free."
           />
           <Faq
-            headline="What commission does Quite Corner take?"
-            paragraphOne="Quite Corner takes 10% of revenue. There are Stripe charges also associated."
+            headline="What commission does Quiet Corner take?"
+            paragraphOne="Quiet Corner takes 10% of revenue. There are Stripe charges also associated."
           />
           <Faq
             headline="How should I price my story?"
-            paragraphOne="Quite Corner is about quality storytelling. It should be special. And, we suggest that stories should represent far more value than they are priced. Does a 20c story represent $1 value? The answer here is, of course, arbitrary. Our guiding principle is that we hope to create a platform that encourages quality and a very satisfied audience."
+            paragraphOne="Quiet Corner is about quality storytelling. It should be special. And, we suggest that stories should represent far more value than they are priced. Does a 20c story represent $1 value? The answer here is, of course, arbitrary. Our guiding principle is that we hope to create a platform that encourages quality and a very satisfied audience."
           />
           <Faq
             headline="I want to include advertising on my story. How do I?"
-            paragraphOne="Sorry, Quite Corner exists to preserve the art of storytelling. It’s about a culturally ravenous audience investing in quality. No fluff, no ads."
+            paragraphOne="Sorry, Quiet Corner exists to preserve the art of storytelling. It’s about a culturally ravenous audience investing in quality. No fluff, no ads."
           />
           <Faq
             headline="Should I disable the paywall after a number of days?"
@@ -43,10 +43,10 @@ const SecondPage = () => (
           />
           <Faq
             headline="Can you put a full-time subscription paywall on my site?"
-            paragraphOne="No, we want our audiences to feel guilty in the same way you do when you have a gym membership when you’re not using it enough. No one likes direct debits. We don’t do that here. We’re pay-by-play. Quite Corner is a micro-paywall that allows you to buy the best media on your phone or desktop – without ads."
+            paragraphOne="No, we want our audiences to feel guilty in the same way you do when you have a gym membership when you’re not using it enough. No one likes direct debits. We don’t do that here. We’re pay-by-play. Quiet Corner is a micro-paywall that allows you to buy the best media on your phone or desktop – without ads."
           />
           <Faq
-            headline="Will Quite Corner piss my reader’s off?"
+            headline="Will Quiet Corner piss my reader’s off?"
             paragraphOne="Your work has likely always been free. Now it’s not. This will almost certainly create concern with your readers. However, we’re challenging the status quo that all media is free. Which is a desperately unsustainable model. We’re about providing a platform to create the work we’re proud of. It’s not clickbait, it’s not a race to the bottom, it’s the work that represents us at our best. It’s for our loyalists."
            />
         </div>
